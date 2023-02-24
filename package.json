@@ -7,7 +7,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "test": "jest --watch"
+        "test": "jest --watch",
+        "postinstall": "npx husky install && npx husky add .husky/pre-commit 'npx lint-staged'"
     },
     "dependencies": {
         "@types/node": "18.14.1",
@@ -30,5 +31,11 @@
         "jest-environment-jsdom": "^29.4.3",
         "lint-staged": "^13.1.2",
         "prettier": "^2.8.4"
+    },
+    "husky": {
+        "hooks": {
+            "prepare": "npx husky install",
+            "pre-commit": "lint-staged -q"
+        }
     }
 }
