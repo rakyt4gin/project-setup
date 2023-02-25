@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "dev": "nx serve",
     "build": "nx build",
     "test": "nx test"
   },
@@ -44,7 +44,11 @@
     "vitest": "^0.25.8"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.8.1",
+    "sort-by": "^1.2.0"
   }
 }
