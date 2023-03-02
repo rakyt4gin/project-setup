@@ -24,6 +24,17 @@ export default defineConfig({
       root: './',
     }),
   ],
+  resolve: {
+    alias: {
+      components: '/src/components',
+      assets: '/src/assets',
+      data: '/src/data',
+      constansts: '/src/constansts',
+      helpers: '/src/helpers',
+      hooks: '/src/hooks',
+      services: '/src/services',
+    },
+  },
 
   // Uncomment this if you are using workers.
   // worker: {

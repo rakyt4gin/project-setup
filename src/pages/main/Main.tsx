@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
-import { ROUTES } from 'src/data/routes';
+import { ROUTES } from 'data/routes';
 import Button from '@mui/material/Button';
-import { ReactComponent as TestIcon } from '../../assets/svg/test.svg';
+import { ReactComponent as TestIcon } from 'assets/svg/test.svg';
 
 const MainPage = () => {
   const navigate = useNavigate();
