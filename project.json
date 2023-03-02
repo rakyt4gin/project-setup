@@ -9,8 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/app",
-        "postcssConfig": "apps/{your app here}/postcss.config.js"
+        "outputPath": "dist/app"
       },
       "configurations": {
         "development": {
