@@ -38,6 +38,9 @@
       "services/*": [
         "services/*"
       ],
+      "styles/*": [
+        "styles/*"
+      ],
     },
     "jsx": "react-jsx",
     "allowJs": false,

@@ -33,6 +33,7 @@ export default defineConfig({
       helpers: '/src/helpers',
       hooks: '/src/hooks',
       services: '/src/services',
+      styles: '/src/styles',
     },
   },
 
