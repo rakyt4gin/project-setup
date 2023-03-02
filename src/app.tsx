@@ -1,8 +1,4 @@
-import {
-  createBrowserRouter,
-  redirect,
-  RouterProvider,
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { ROUTES } from './data/routes';
 import { MainPage } from './pages/main';
 import { SignInPage } from './pages/sign-in';
